@@ -18,14 +18,18 @@ $dimV_1+dimV_2 =dim(V_1+V_2)+dim(V_1\cap V_2)$
 
 ###矩阵的特征值
 
-$\lambda E-A$称为$A$的特征矩阵，行列式$$|\lambda E_n -A|=\left|
+$\lambda E-A$称为$A$的特征矩阵，行列式
+
+$$|\lambda E_n -A|=\left|
     \begin{matrix}
         \lambda-a_{11} & -a_{12} &\cdots & -a_{1n} \\
         -a_21 & \lambda-a_{22} & \cdots & -a_{2n} \\
         \vdots & \vdots & \ddots & \vdots \\
         -a_{n1} & -a_{n2} & \cdots & \lambda - a_{nn}
     \end{matrix}
-     \right|$$
+     \right|
+$$
+
 称为A的特征多项式。
 
 
