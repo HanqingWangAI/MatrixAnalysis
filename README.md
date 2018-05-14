@@ -8,6 +8,7 @@
 - [第二章 $\lambda$矩阵和矩阵的Jordan标准形](#第二章)
     - [Smith标准形](#Smith标准形)
     - [Jordan标准形](#Jordan标准形)
+- [第三章 内积空间、正规矩阵、Hermite矩阵](#第三章)
 
 
 ## 第一章
