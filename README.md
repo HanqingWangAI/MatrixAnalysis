@@ -221,3 +221,25 @@ $$\parallel \alpha \parallel=\sqrt{(\alpha,\alpha)}$$
 
 **正交向量组**和**标准正交向量组**的概念（向量组中不含零向量）。
 
+**标准正交基**：在$n$内积空间中，由$n$个正交向量组组成的基底称为正交基底。
+
+**施密特正交化单位化**：
+1. 正交化
+
+$\beta_1=\alpha_1$
+
+$\beta_2=\alpha_2-\frac{(\alpha_2,\beta_1)}{(\beta_1,\beta_1)}\beta_1$
+
+$\cdots \cdots \cdots$
+
+$\beta_r=\alpha_r-\frac{(\alpha_r,\beta_1)}{(\beta_1,\beta_1)}\beta_1-\cdots-\frac{(\alpha_r,\beta_{r-1})}{(\beta_{r-1},\beta_{r-1})}\beta_{r-1}$
+
+2. 单位化：向量除以其向量长度
+
+**酉变换与正交变换**
+
+设$A$为一个n阶复矩阵，如果满足$A^HA=AA^H=I$则称A是酉矩阵,一般记为$A\in U^{n\times n}$。
+
+设$A$为一个n阶实矩阵，如果满足$A^HA=AA^H=I$则称A是正交矩阵,一般记为$A\in E^{n\times n}$。
+
+
