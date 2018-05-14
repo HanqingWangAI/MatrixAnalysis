@@ -200,7 +200,24 @@ $(\alpha,\beta):=\alpha(\overline{\beta})^T=a_1\overline{b_1}+a_2\overline{b_2}+
 
 **反Hermite矩阵**：$A^H=-A$，对角线元素**实部**为0。
 
-**内积空间的度量**：
+**内积空间的度量(向量长度)**：
 设$V$为酉(欧式)空间，向量$\alpha\in V$的长度定义为非负实数
 $$\parallel \alpha \parallel=\sqrt{(\alpha,\alpha)}$$
+
+向量长度的性质：
+- $\parallel\alpha\parallel\geq 0$，当且仅当$\alpha=0$时，$\parallel\alpha\parallel= 0$
+- $\parallel k\alpha \parallel=|k|\parallel \alpha \parallel$, $k \in C$,$|k|$为k的模长。
+- 三角不等式： $\parallel \alpha+\beta \parallel \leq \parallel \alpha \parallel + \parallel \beta \parallel$
+- Cauchy-Schwarz不等式：$|(\alpha,\beta)|\leq \parallel \alpha \parallel \parallel \beta \parallel$
+
+向量的夹角：arcos(内积除以长度的积)。
+
+正交：在酉空间$V$中，如果$(\alpha,\beta)=0$，则称$\alpha$和$\beta$正交。
+
+单位化：向量除以向量的长度。
+
+
+#### 标准正交基与施密特正交化
+
+**正交向量组**和**标准正交向量组**的概念（向量组中不含零向量）。
 
