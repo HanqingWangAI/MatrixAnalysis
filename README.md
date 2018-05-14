@@ -200,5 +200,7 @@ $(\alpha,\beta):=\alpha(\overline{\beta})^T=a_1\overline{b_1}+a_2\overline{b_2}+
 
 **反Hermite矩阵**：$A^H=-A$，对角线元素**实部**为0。
 
-
+**内积空间的度量**：
+设$V$为酉(欧式)空间，向量$\alpha\in V$的长度定义为非负实数
+$$\parallel \alpha \parallel=\sqrt{(\alpha,\alpha)}$$
 
