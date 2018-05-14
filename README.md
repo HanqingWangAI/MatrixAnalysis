@@ -2,12 +2,17 @@
 
 ## 目录
 - [第一章 线性空间和线性变换](#第一章)
+    - [线性空间](#线性空间)
+    - [矩阵的特征值](#矩阵的特征值)
+    - [矩阵对角化](#矩阵对角化)
 - [第二章 $\lambda$矩阵和矩阵的Jordan标准形](#第二章)
     - [Smith标准形](#Smith标准形)
     - [Jordan标准形](#Jordan标准形)
 
 
 ## 第一章
+
+### 线性空间
 
 维数公式：设$V_1,V_2$是线性空间$V$的两个子空间则有
 $dimV_1+dimV_2 =dim(V_1+V_2)+dim(V_1\cap V_2)$
@@ -142,5 +147,57 @@ $A$可对角化的充要条件是$A$的初等因子都是一次因式。
 
 线性齐次方程组的解空间维数等于$n-rank$，求出线性无关的基础解系。
 线性非齐次方程组有解时，系数矩阵与增广矩阵的秩相同，当$rank=n$时，有唯一解。
+
+## 第三章
+
+### 内积
+
+**实数域上的内积**：实数域上两个向量$\alpha$,$\beta$按法则对应到某个实数，这个实数称为$\alpha$,$\beta$的内积。
+
+#### 实数域内积满足的条件
+- $(\alpha,\beta)=(\beta,\alpha)$
+- $(k\alpha,\beta) = k(\alpha,\beta)$,$k$为任意实数
+- $(\alpha + \beta,\gamma)=(\alpha,\gamma)+(\beta,\gamma)$
+- $(\alpha,\alpha)\geq 0$,当且仅当$\alpha=0$时$(\alpha,\alpha)=0$.
+
+验证是否为内积。
+
+**欧式空间**:定义了内积的n维线性空间。
+
+
+**复数域上的内积**：定义与实数域上内积类似。
+
+#### 复数域内积满足的条件
+- $(\alpha,\beta)=(\overline{\beta,\alpha})$
+- $(k\alpha,\beta) = k(\alpha,\beta)$,$k$为任意复数
+- $(\alpha + \beta,\gamma)=(\alpha,\gamma)+(\beta,\gamma)$
+- $(\alpha,\alpha)\geq 0$,当且仅当$\alpha=0$时$(\alpha,\alpha)=0$.
+
+**酉空间**:定义了复数域内积的n维线性空间。
+
+欧式空间和酉空间统称为内积空间。
+
+**复数域上的标准内积定义**
+$(\alpha,\beta):=\alpha(\overline{\beta})^T=a_1\overline{b_1}+a_2\overline{b_2}+\cdots+a_n\overline{b_n}$
+
+复数域上的矩阵乘法:$\overline{AB}=\overline{A}\ \overline{B}$
+
+复共轭转置性质:
+- $A^H=(\overline{A^T})$
+- $(AB)^H=B^HA^H$
+- $(kA)^H=\overline{k}A^H$
+- $(AB)^H=B^HA^H$
+- $(A^k)^H = (A^H)^k$
+- $(A^H)^H = A$
+- $|\overline{A}|=\overline{|A|}$
+- $(A^H)^{-1}=(A^{-1})^H$
+
+
+#### Hermite矩阵
+
+**Hermite矩阵**：$A^H=A$，对角元素**虚部**为0。
+
+**反Hermite矩阵**：$A^H=-A$，对角线元素**实部**为0。
+
 
 
