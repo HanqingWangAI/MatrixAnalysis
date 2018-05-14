@@ -79,7 +79,7 @@ $$P^{-1}AP=diag(\lambda_1,\lambda_2,\cdots,\lambda_n)$$
 设$A,B\in C^{n\times n}$都可以对角化，则$A,B$同时对角化的充要条件是$AB=BA$.
 
 ## 第二章
-$\lambda$矩阵的概念：多项式矩阵。
+$\lambda$矩阵的概念：多项式矩阵。数字矩阵的特征矩阵就是$\lambda$矩阵,$\lambda$矩阵是研究数字矩阵的重要工具。
 
 初等变换：
 
@@ -241,5 +241,59 @@ $\beta_r=\alpha_r-\frac{(\alpha_r,\beta_1)}{(\beta_1,\beta_1)}\beta_1-\cdots-\fr
 设$A$为一个n阶复矩阵，如果满足$A^HA=AA^H=I$则称A是酉矩阵,一般记为$A\in U^{n\times n}$。
 
 设$A$为一个n阶实矩阵，如果满足$A^HA=AA^H=I$则称A是正交矩阵,一般记为$A\in E^{n\times n}$。
+
+
+酉矩阵的性质:
+
+设$A,B\in U^{n\times n}$,那么有
+- $A^{-1}=A^H\in U^{n\times n}$ 
+- $|det(A)|=1$
+- $AB,BA\in U^{n\times n}$
+
+
+
+正交矩阵的性质：
+
+设$A,B\in E^{n\times n}$,那么有
+- $A^{-1}=A^T\in E^{n\times n}$ 
+- $|det(A)|=1$
+- $AB,BA\in E^{n\times n}$
+
+**酉矩阵的充要条件：** 设$A\in C^{n\times n}$，则$A$是酉矩阵的充要条件为$A$的$n$个行(列)向量组是标准正交向量。
+
+设$V$是一个$n$维酉空间，$\sigma$是$V$的一个线性变换，如果对任意的$\alpha,\beta\in V$都有
+$$(\sigma(\alpha),\sigma(\beta))=(\alpha,\beta)$$
+则称$\sigma$是$V$的一个酉变换。（变换后内积保持不变）
+
+
+**酉变换的一些性质:**
+- 若$\sigma$是$V$的一个线性变换，则$\sigma$是酉变换
+- $\parallel\sigma(\alpha)\parallel=\parallel\alpha\parallel, \forall \alpha\in V$
+- 能将$V$下的一个标准正交基底变成另一个标准正交基底
+- 酉变换在标准正交基下的矩阵表示为酉矩阵
+
+**正交变换**类似。
+
+#### 幂等矩阵
+
+设$A\in C^{n\times n}$，如果$A$满足
+$$A^2=A$$，则称$A$是一个幂等矩阵。
+
+幂等矩阵的性质：
+- $N(A)=R(I-A)$和$N(I-A)=R(A)$
+- $C^{n\times 1}=R(A)\bigoplus N(A)$
+
+**幂等矩阵的充要条件**:设$A$是一个秩为$r$的$n$阶矩阵，那么$A$为一个幂等矩阵的充分必要条件是存在$P\in C_n^{n\times n}$使得
+$$
+    P^{-1}AP=\left[
+    \begin{matrix}
+        I_r & O \\
+        O & O
+    \end{matrix}
+    \right]
+$$
+推论，设$A$是一个$n$阶幂等矩阵，则有
+$$Tr(A)=rank(A)$$
+
 
 
