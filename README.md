@@ -334,6 +334,12 @@ $$U^HAU=diag(\lambda_1,\lambda_2,\cdots,\lambda_n)$$，其中$\lambda_1,\lambda_
 
 
 <!-- $$\alpha=min\{1,\frac{E(T_i)\pi(T_i)}{E(T_{i-1})\pi(T_{i-1})}\frac{Q(T_i,T_{i-1})}{Q(T_{i-1},T_{i})}\} $$ -->
+## 第五章
+题型：
+- 向量（矩阵）范数的三角不等式使用Minkovski不等式证明
+- 矩阵范数的乘法相容性使用Holder不等式证明，有时也会用到Cauchy-Schwartz不等式。
+
+
 ## 第六章
 
 题型：
@@ -343,3 +349,13 @@ $$U^HAU=diag(\lambda_1,\lambda_2,\cdots,\lambda_n)$$，其中$\lambda_1,\lambda_
 - Jordan块的特征多项式就是其最小公倍式。
 - 矩阵函数的Jordan表示$f(A)=Pdiag(f(J_1),f(J_2),\cdots,f(J_r))P^{-1}$
 - 矩阵函数的多项式表示：矩阵的最小多项式为$m$次，则存在一个$m-1$次多项式$p(x)=a_0+a_1x+a_2x^2+\cdots+a_{m-1}x^{m-1}$,使得$f^{(k)}(\lambda_i)=p^{(k)}(\lambda_i)$。
+
+
+## 2018题目
+
+- 证明$\parallel X \parallel = \parallel AX \parallel_2$是向量范数， 其中$X\in C^3,A\in C^{3\times 3}$
+- 线性空间$<V,F>$为全体$n$阶矩阵构成的，$S$为全体对称矩阵集合，$T$为全体反对称矩阵集合，证明$S$和$T$为$V$的子空间，且$V= S \bigoplus T$,即$V$为$S$和$T$的直和。
+- 求奇异值分解，谱分解
+- 求一组基下的线性变换到另一组基下的相似变换矩阵
+- 求Hermite二次型变为标准型的相似变换酉矩阵
+- 证明存在矩阵$P$使得秩为$r$的幂等$Hermite$矩阵$A^2=A$可以化为$P^{-1}AP=diag(I_r,\textbf{0})$,进一步证明存在次酉矩阵$U_1$使得$A=U_1U_1^H$
