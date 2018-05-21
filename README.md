@@ -354,7 +354,7 @@ $$U^HAU=diag(\lambda_1,\lambda_2,\cdots,\lambda_n)$$，其中$\lambda_1,\lambda_
 
 ## 2018
 
-- 证明$\parallel X \parallel = \parallel AX \parallel_2$是向量范数， 其中$X\in C^3,A\in C^{3\times 3}$
+- 证明$\parallel X \parallel = \parallel AX \parallel_2$是向量范数， 其中$X\in C^3,A\in C^{3\times 3}$，且$A$满秩。
 - 线性空间$<V,F>$为全体$n$阶矩阵构成的，$S$为全体对称矩阵集合，$T$为全体反对称矩阵集合，证明$S$和$T$为$V$的子空间，且$V= S \bigoplus T$,即$V$为$S$和$T$的直和。
 - 求奇异值分解，谱分解
 - 求一组基下的线性变换到另一组基下的相似变换矩阵
