@@ -9,6 +9,7 @@
     - [Smith标准形](#Smith标准形)
     - [Jordan标准形](#Jordan标准形)
 - [第三章 内积空间、正规矩阵、Hermite矩阵](#第三章)
+- [2018年题目](#2018)
 
 
 ## 第一章
@@ -351,7 +352,7 @@ $$U^HAU=diag(\lambda_1,\lambda_2,\cdots,\lambda_n)$$，其中$\lambda_1,\lambda_
 - 矩阵函数的多项式表示：矩阵的最小多项式为$m$次，则存在一个$m-1$次多项式$p(x)=a_0+a_1x+a_2x^2+\cdots+a_{m-1}x^{m-1}$,使得$f^{(k)}(\lambda_i)=p^{(k)}(\lambda_i)$。
 
 
-## 2018题目
+## 2018
 
 - 证明$\parallel X \parallel = \parallel AX \parallel_2$是向量范数， 其中$X\in C^3,A\in C^{3\times 3}$
 - 线性空间$<V,F>$为全体$n$阶矩阵构成的，$S$为全体对称矩阵集合，$T$为全体反对称矩阵集合，证明$S$和$T$为$V$的子空间，且$V= S \bigoplus T$,即$V$为$S$和$T$的直和。
